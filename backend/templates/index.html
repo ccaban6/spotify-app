@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        
+        <title>Your Recently Played</title>
+    </head>
+    <body>
+        <div id="root">
+            <h1>Recently Played</h1>
+            <ul>
+                {% for recent in recents %}
+
+                <li>{{ recent.name }} by {{recent.artists[0].name}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </body>
+</html>

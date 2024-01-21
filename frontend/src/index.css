@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0e0e0e;
+  width: device-width;
+  height: device-height;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: 'transparent';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.left-header {
+  display: inline-flex;
+  height: 145px;
+  padding: 52px 124px 49px 125px;
+  justify-content: center;
+  align-items: center;
+  background: #373737;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  flex: 1;
+}
+
+#root {
+  box-shadow: 4px 4px 4px;
+}
+
+.right-div {
+  margin-left: 10px;
+  width: 100%;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+  flex: 2
+}
+
+.container {
+  display:flex;
+  background-color: #0e0e0e;
+  height: device-height;
+}
+
+.recent-card {
+  width: 573px;
+  height: 177px; 
+
+  position: absolute; 
+  box-shadow: 4px 4px 4px;
+}
+
+.recommend-card {
+  box-shadow: 4px 4px 4px;
+  top: 20px;
+}
+
+.recentlyPlayed {
+  color: #FFF;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}
+
+.LeftPanel {
+  width: 640px;
+  max-height: 550px;
+  left: 0px;
+  top: 145px;
+  position: absolute; 
+  background: #373737; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  overflow-y: auto;
+}
+
+.Frame2 {
+  width: 640px; 
+  height: 145px; 
+  padding-top: 52px; 
+  padding-bottom: 49px; 
+  padding-left: 125px; 
+  padding-right: 124px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  background: #373737; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  justify-content: center; 
+  align-items: center; 
+  display: inline-flex;
+  overflow-y: hidden;
+
+}
+
+.RightPanel {
+  width: 1283px; 
+  height: 1080px; 
+  background: #404040; 
+  position: absolute; 
+  left: 640px ;
+}
+
+.RecommendedTracks {
+  left: 50px; 
+  top: 45px; 
+  position: absolute; 
+  text-align: center; 
+  color: white; 
+  font-size: 36px; 
+  font-family: 'Inter'; 
+  font-weight: 700; 
+  letter-spacing: 20.64px; 
+  word-wrap: break-word
+}
+
+.tabs {
+  top:150px;
+  left: 30px;
+  width: 900px
+}
